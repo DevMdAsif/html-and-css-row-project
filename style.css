@@ -189,3 +189,45 @@ nav div ul li a:hover {
   margin-top: 30px;
   font-weight: 500;
 }
+
+/* footer section */
+
+.footer{
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 2fr repeat(3,1fr);
+  background-color: #7f7770;
+  padding-left: 5%;
+  padding-top: 10%;
+  padding-bottom: 8%;
+}
+
+.footer-text h3{
+  font-family: 'Mochiy Pop One', sans-serif;
+
+}
+
+
+.footer-text p{
+  font-family: 'Roboto', sans-serif;
+  margin-top: 5%;
+}
+.social-icon{
+  margin-top: 5%;
+}
+.social-icon i {
+  margin-left: 5%;
+  background-color: white;
+  padding: 12px;
+  border-radius: 20px;
+  border: 1px solid transparent;
+}
+.social-icon i:first-child{
+  padding: 12px 15px;
+}
+.social-icon i:hover{
+  background-color: black;
+  color: white;
+  transition: .3s;
+}
